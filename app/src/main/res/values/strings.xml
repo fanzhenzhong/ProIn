@@ -9,4 +9,5 @@
     <string name="cart">CART</string>
     <string name="setting">SETTING</string>
     <string name="amount_due">Total Amount Due</string>
+    <string name="confirm">CONFIRM PACKAGE</string>
 </resources>
