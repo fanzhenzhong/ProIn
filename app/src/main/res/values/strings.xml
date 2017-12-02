@@ -10,4 +10,13 @@
     <string name="setting">SETTING</string>
     <string name="amount_due">Total Amount Due</string>
     <string name="confirm">CONFIRM PACKAGE</string>
+    <string name="accdetails">ACCOUNT DETAILS</string>
+    <string name="bankdetails">BANK DETAILS</string>
+    <string name="logindetails">LOGIN DETAILS</string>
+    <string name="editProfile">EDIT PROFILE</string>
+    <string name="logout">LOG OUT</string>
+    <string name="name">Name </string>
+    <string name="contNum">Contact Number </string>
+    <string name="email">Email </string>
+    <string name="address">Current Address </string>
 </resources>

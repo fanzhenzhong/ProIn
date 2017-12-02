@@ -13,18 +13,22 @@
         <activity android:name=".TopActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".ServicesActivity" />
-        <activity android:name=".CartActivity">
+        <activity android:name=".CartActivity"></activity>
+        <activity
+            android:name=".ProductActivity"
+            android:label="Critical Illness "
+            android:parentActivityName=".HomeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ProductActivity"
-            android:label="Critical Illness "
-            android:parentActivityName=".HomeActivity" />
-        <activity android:name=".ImageActivity"></activity>
+        <activity android:name=".ImageActivity" />
+        <activity android:name=".SettingActivity"/>
+        <activity android:name=".EditProfileActivity" android:label="EDIT DETAILS" android:parentActivityName=".SettingActivity">
+
+        </activity>
     </application>
 
 </manifest>
